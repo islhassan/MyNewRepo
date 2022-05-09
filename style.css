@@ -1,0 +1,268 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.home
+{
+    background-image: url(img/slider-01.jpg);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-size: cover;
+    background-position: center center;
+
+}
+.home-desc
+{
+    display: flex;
+ background-color:rgba(0, 0, 0, 0.6);
+    text-align: center;
+    width: 100%;
+    height: 100%;
+    color: white;
+    flex-direction: column;
+    justify-content: center;
+
+}
+h1
+{
+    font-size: 60px;
+    color: #ff305b;
+}
+   /*------------------------------------------------- Navbar-------------------------------------------------------------------------- */
+.navbar
+{
+    background-color: black;
+    display: flex;
+    justify-content: space-around;
+    position: fixed;
+    left: 0;
+    right: 0;
+    z-index: 0;
+}
+.logo
+{
+    color: #ff305b;
+}
+
+.navbar ul
+{   
+    display: flex;
+    justify-content: space-between;
+    width: 30%;
+    align-items: center;
+}
+a
+{
+    text-decoration: none;
+    color: white;
+    font-size: 17px;
+}
+@media screen and (max-width:700px) {
+
+    .navbar{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .navbar ul
+    {
+        flex-direction: column;
+    }
+    
+}
+/*------------------------------------------------- About------------------------------------------------------------- */
+.container
+{
+    width: 80%;
+    margin: auto;
+}
+.about
+{
+    display: flex;
+    justify-content: center;
+}
+.about-img 
+{   
+    width: 30%;
+} 
+.about-img img
+{
+    width: 100%;
+    padding: 20px;
+}
+
+.about-desc
+{
+    text-align: center;
+    margin-top: 60px;
+    align-items: center;
+    width: 50%;
+    padding: 5px 0;
+    
+}
+.con-info
+{
+
+display: flex;
+justify-content: space-around;
+margin-top: 20px;
+
+}
+.con-info ul li 
+{
+    list-style: none;
+    padding: 5px 0 ;
+}
+.btn
+{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 20px;
+    
+}
+.btn1
+{
+    background: #ff305b none repeat scroll 0 0;
+    padding: 10px;
+    border-radius: 5px solid black;
+}
+/* -----------------------Services */
+.Services
+{
+    border: 5px white solid;
+    background-color:#f1f1f1;
+    padding: 50px;
+}
+.Services h2
+{
+    
+   align-items: center;
+    
+}
+.item
+{
+    display: flex;
+    width: 80%;
+    margin: auto;
+    padding-top: 20px;
+       
+}
+.single-service
+{
+    width: 25%;
+   text-align: center;
+   margin: 10px 0;
+   align-content: center;
+}
+.single-service:hover{
+    background-color: white;
+    transition: 2s;
+}
+.name
+{
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    justify-content: flex-end;
+}
+/*----------------------- Our Portfolio */
+.product
+{
+   width: 30%; 
+}
+.product img
+
+{
+    width: 100%;
+    margin: 10px;
+
+}
+.Portfolio
+{
+  width: 80%;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:space-around ;
+    /* align-items: space-between; */
+}
+.head
+{
+    text-align: center;
+    font-family: 'Source Sans Pro', sans-serif;
+    color: #333;
+}
+.shadow
+{
+    background-color: #333;
+    width: 100%;
+}
+/*-------------------------------- Feedback */
+/* .feed
+{
+    background-color: #ff305b;
+    width: 60%;
+    margin: auto;
+} */
+.Feedback
+{
+    display: flex;
+    width: 50%;
+    margin: auto;
+    justify-content: center;
+    background: #f1f1f1 ;
+
+}
+.fedback-img
+{
+    width: 25%;
+    padding: 20px;
+    background: linear-gradient(-45deg 70% , #ff305b ,  );
+}
+.fedback-img img
+{
+    width: 100%;
+    border-radius: 50%;
+
+}
+.feedback-desc
+{
+    text-align: center;
+    width: 60%;
+    margin-top: 50px ;
+    font-size: 16px;
+    font-style: italic;
+}
+.clint
+{
+    text-align: center;
+    margin-top: 20px;
+    font-size: 25px;
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+
+
+}
+
+/* -------------------------------end */
+.end
+{
+    background-color:#555555;
+    text-align: center;
+    width: 100%;
+    height: 200px;
+    padding: 50px;
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.end h3{
+    color:  #ffffff;
+}
+.end h3 a{
+    color: #ff305b;
+}
